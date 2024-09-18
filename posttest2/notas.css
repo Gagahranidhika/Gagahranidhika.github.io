@@ -36,10 +36,6 @@ header {
     transition: color 0.3s;
 }
 
-.navbar a:hover {
-    color: #ffdd57; /* Light yellow on hover */
-}
-
 h1 {
     margin: 10px 0;
     text-align: center;
@@ -47,12 +43,12 @@ h1 {
 
 .receipt-container {
     max-width: 800px;
-    margin: 20px auto; /* Add margin for spacing */
+    margin: 20px auto; 
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 10px; 
 }
 
 .receipt-info p {
@@ -108,16 +104,16 @@ a:hover {
 .warning {
     text-align: center;
     color: red;
-    font-weight: bold; /* Make warning more prominent */
+    font-weight: bold; 
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .navbar ul {
-        flex-direction: column; /* Stack nav items */
+        flex-direction: column; 
     }
 
     .receipt-container {
-        padding: 15px; /* Adjust padding on smaller screens */
+        padding: 15px;
     }
 }
