@@ -75,24 +75,19 @@ main {
     border-radius: 10px;
 }
 
-button {
-    background-color: #28a745;
+.konfirmasi-link {
+    display: inline-block;
+    background-color: #28a745; 
     color: white;
-    border: none;
-    padding: 8px 16px; 
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 14px; 
-    transition: background-color 0.3s;
+    padding: 8px 16px;
+    border-radius: 5px; 
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px; 
 }
 
-button:hover {
+.konfirmasi-link:hover {
     background-color: #218838;
-}
-
-button:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5);
 }
 
 #pesan h2 {
