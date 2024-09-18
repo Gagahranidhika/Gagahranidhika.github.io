@@ -36,10 +36,6 @@ header {
     transition: color 0.3s;
 }
 
-.navbar a:hover {
-    color: #ffdd57; /* Light yellow on hover */
-}
-
 main {
     padding: 20px;
     text-align: center;
