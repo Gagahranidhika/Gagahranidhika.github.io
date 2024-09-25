@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZManga - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <!-- Navbar -->
+        <nav>
+            <input type="checkbox" id="menu-toggle" style="display: none;">
+            
+            <!-- Hamburger icon for smaller screens -->
+            <div class="hamburger-icon" onclick="toggleMenu()" aria-label="Toggle menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </div>
+            
+            <!-- Menu links -->
+            <ul class="menu" role="menu">
+                <li role="menuitem"><a href="index.html" onclick="closeMenu()">Home</a></li>
+                <li role="menuitem"><a href="about.html" onclick="closeMenu()">About</a></li>
+            </ul>
+
+            <!-- Logo -->
+            <div class="logo"><a href="index.html">ZManga</a></div>
+            
+            <!-- Dark/Light mode switch -->
+            <label class="switch">
+                <input type="checkbox" id="mode-toggle" onclick="toggleMode()">
+                <span class="slider round"></span>
+            </label>
+        </nav>
+    </header>
+
+    <main>
+        <section class="manga-grid">
+            <div class="manga-item">
+                <img src="Komik-One-Piece.jpg" alt="One Piece">
+                <div class="manga-info">
+                    <h3><a href="manga-detail.html">One Piece</a></h3>
+                    <ul class="chapter-list">
+                        <li><a href="chapter.html">Ch. 1</a> <span>59 seconds ago</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="manga-item">
+                <img src="Manga-Naruto.jpg" alt="Naruto">
+                <div class="manga-info">
+                    <h3><a href="manga-detail.html">Naruto</a></h3>
+                    <ul class="chapter-list">
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="menu-overlay" onclick="closeMenu()"></div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Andhika Gagahrani Ektya Antara || 2309106034</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
