@@ -36,9 +36,6 @@ function closeMenu() {
 }
 
 
-window.onload = loadTheme; 
-
-
 window.addEventListener('click', function(e) {
     const menu = document.querySelector('nav ul.menu');
     const hamburger = document.querySelector('.hamburger-icon');
@@ -51,6 +48,7 @@ window.addEventListener('click', function(e) {
 
 window.onload = function() {
     openPopup();
+    loadTheme();
 };
 
 function openPopup() {
